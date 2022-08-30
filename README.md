@@ -1,3 +1,7 @@
+# Introduction
+
+SHOPNW is an e-commerce web application that uses https://fakestoreapi.com/products API for fetching the data and displaying it. The application is completely responsive. The application uses Redux to fetch data from the API and update it as states. The application has a Home page that displays a title and some products, It has a product page that displays all the products. If we select a particular product it will redirect towards an individual product page. In the individual product page it has a Add to cart button that uses custom hooks to update the state. The application has a customer login page that uses a higher-order component for authentication.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
