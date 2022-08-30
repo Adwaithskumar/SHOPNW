@@ -1,0 +1,26 @@
+.product-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    color: black;
+    font-weight: 400;
+    padding: 20px;
+  }
+  
+  .product-rating {
+    padding-left: 3px;
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    span {
+      margin-right: 20px;
+    }
+  }
+  
+  .product-title {
+    font-size: 40px;
+    color: black;
+  }
+  
+  
+ 

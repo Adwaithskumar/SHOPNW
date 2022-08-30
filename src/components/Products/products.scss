@@ -1,0 +1,45 @@
+.card-containers {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+   
+}
+
+.card-item {
+padding: 10px;
+   border: 1px;
+   border-radius: 20px;
+    margin: 20px 0px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 4px 0px 3px 2px rgb(42, 45, 46);
+  
+}
+
+.card-top {
+    height: 300px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+.card-bottom {
+    padding: 20px;
+}
+
+.card-info{
+    color: black;
+    h4 {
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
